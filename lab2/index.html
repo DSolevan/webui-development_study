@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <img id="logo" src="image.png" alt="Логотип сайта" width="60" height="60">
+            <nav id="menu">
+                <ul>
+                    <li><a href="#links">Ссылки</a></li>
+                    <li><a href="#table">Таблица</a></li>
+                    <li><a href="#forma">Форма</a></li>
+                </ul>
+            </nav>
+            <h1 id="site-name">Веб-программирование</h1>
+        </div>
+    </header>
+    <main class="container">
+
+        <section id="links">
+            <h1>Список гиперссылок</h1>
+            <ul>
+                <li><a href="http://kubsu.ru/">http ссылка</a></li>
+                <li><a href="https://kubsu.ru/">https ссылка</a></li>
+                <li><a href="http://kubsu.ru"><img src="image.jpg" alt="Кубгу" width="100" height="100"></a></li>
+                <li><a href="/about.html">Внутренняя страница</a></li>
+                <li><a href="/">Главная страница</a></li>
+                <li><a href="#forma">Перейти к форме</a></li>
+                <li><a href="https://example.com/search?q=html&amp;page=2&amp;sort=asc">Ссылка с тремя параметрами</a></li>
+                <li><a href="https://example.com/article?id=42">Ссылка с параметром id</a></li>
+                <li><a href="./page.html">Страница в текущем каталоге</a></li>
+                <li><a href="about/page.html">Страница в каталоге about</a></li>
+                <li><a href="../page.html">Страница уровнем выше</a></li>
+                <li><a href="../../page.html">Страница двумя уровнями выше</a></li>
+                <li>
+                    <p>Читайте на <a href="https://kubsu.ru/">официальном сайте КубГУ</a>.</p>
+                </li>
+                <li><a href="https://en.wikipedia.org/wiki/HTML#History">Раздел в Википедии</a></li>
+                <li>
+                    <p>Найдите область, куда тыкнуть</p>
+                    <img src="image.jpg" alt="Картинка с кликабельными областями" width="300" height="200" usemap="#shapes">
+                    <map name="shapes">
+                        <area shape="rect" coords="20,40,180,160" href="https://kubsu.ru/" alt="Прямоугольная область: сайт КубГУ">
+                        <area shape="circle" coords="300,100,60" href="https://kubsu.ru/" alt="Круглая область: сайт КубГУ">
+                    </map>
+                </li>
+                <li><a href="">Ссылка с пустым href</a></li>
+                <li><a>Ссылка без href </a></li>
+                <li><a href="https://example.com/" rel="nofollow">Поисковики не переходят по этой ссылке</a></li>
+                <li>
+                    <!--noindex--><a href="https://example.org/" rel="nofollow">Эта ссылка не индексируется поисковиками</a><!--/noindex-->
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="http://kubsu.ru/"> КубГУ</a></li>
+                        <li><a href="https://validator.w3.org/">W3C Validator</a></li>
+                        <li><a href="https://github.com/" >GitHub</a></li>
+                    </ol>
+                </li>
+                <li><a href="ftp://user:password@ftp.example.com/files/report.pdf">Файл на FTP-сервере</a></li>
+            </ul>
+        </section>
+        <section id="table" class="block">
+            <h2>Расписание занятий</h2>
+            <table class="schedule">
+                <thead>
+                <tr>
+                    <th>День</th>
+                    <th>Время</th>
+                    <th>Предмет</th>
+                    <th>Аудитория</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td rowspan="2">Понедельник</td>
+                    <td>08:00</td>
+                    <td>Веб-программирование</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>09:40</td>
+                    <td>Базы данных</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Вторник</td>
+                    <td>08:00</td>
+                    <td>Математический анализ</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Среда</td>
+                    <td colspan="3">Самостоятельная работа</td>
+                </tr>
+                <tr>
+                    <td>Четверг</td>
+                    <td>11:20</td>
+                    <td>Английский язык</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Пятница</td>
+                    <td>09:40</td>
+                    <td>Веб-программирование</td>
+                    <td>100</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="forma">
+            <h1>Форма</h1>
+            <form method="get">
+                <label>
+                    ФИО:<br>
+                    <input name="fio" placeholder="Иванов Иван Иванович" required>
+                </label><br>
+
+                <label>
+                    Телефон:<br>
+                    <input name="phone" type="tel" placeholder="+7 900 123-45-67">
+                </label><br>
+
+                <label>
+                    E-mail:<br>
+                    <input name="email" type="email" placeholder="Введите вашу почту">
+                </label><br>
+
+                <label>
+                    Дата рождения:<br>
+                    <input name="birthdate" type="date" value="2026-09-18">
+                </label><br>
+
+                Пол:<br>
+                <label><input type="radio" name="gender" value="male" checked> Мужской</label>
+                <label><input type="radio" name="gender" value="female"> Женский</label><br>
+
+                <label>
+                    Любимый язык программирования:<br>
+                    <select name="languages[]" multiple size="6">
+                        <option value="cpp">C++</option>
+                        <option value="cpp">C++</option>
+                        <option value="cpp">C++</option>
+                        <option value="cpp">C++</option>
+                        <option value="cpp">C++</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="php">PHP</option>
+                        <option value="python">Python</option>
+                        <option value="java">Java</option>
+                    </select>
+                </label><br>
+
+                <label>
+                    Биография:<br>
+                    <textarea name="bio" rows="6" cols="40" placeholder="Расскажите о себе"></textarea>
+                </label><br>
+
+                Контракт:<br>
+                <label><input type="checkbox" name="contract" value="yes" required> С контрактом ознакомлен(а)</label><br>
+
+                <input type="submit" value="Сохранить">
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; 2026 dsolevan</p>
+        </div>
+    </footer>
+</body>
+
+</html>

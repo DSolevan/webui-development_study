@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: #222;
+  background-color: #fff;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+#header {
+  overflow: hidden;
+  padding: 15px 0;
+  color: #fff;
+  background-color: #2f5f98;
+}
+
+#logo {
+  float: left;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+#menu {
+  text-align: right;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu li {
+  display: inline;
+  margin-left: 20px;
+}
+
+#menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+#site-name {
+  margin: 0;
+  font-size: 28px;
+}
+
+.block {
+  margin: 30px 0;
+}
+
+.schedule {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px 10px;
+  border: 1px solid #999;
+  text-align: left;
+}
+
+.schedule th {
+  color: #fff;
+  background-color: #2f5f98;
+}
+
+.schedule tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.schedule tbody tr:nth-child(even) {
+  background-color: #dde7f3;
+}
+
+#footer {
+  padding: 20px 0;
+  color: #fff;
+  background-color: #2f5f98;
+}
+
+#footer p {
+  margin: 0;
+}

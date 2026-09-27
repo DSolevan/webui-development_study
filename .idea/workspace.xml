@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0e313eb-2d3d-4275-a581-d3f9984fa7c9" name="Changes" comment="починил картинки">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a0e313eb-2d3d-4275-a581-d3f9984fa7c9" name="Changes" comment="починил названия" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +86,7 @@
       <workItem from="1789739146090" duration="30000" />
       <workItem from="1789739248709" duration="3105000" />
       <workItem from="1790492716681" duration="753000" />
-      <workItem from="1790493514912" duration="812000" />
+      <workItem from="1790493514912" duration="1138000" />
     </task>
     <task id="LOCAL-00001" summary="сделано задание">
       <option name="closed" value="true" />
@@ -122,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1790493631853</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="сделал лабу3">
+      <option name="closed" value="true" />
+      <created>1790494399835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1790494399835</updated>
+    </task>
+    <task id="LOCAL-00006" summary="починил названия">
+      <option name="closed" value="true" />
+      <created>1790494649142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1790494649142</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +145,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="сделано задание" />
     <MESSAGE value="починил картинки" />
-    <option name="LAST_COMMIT_MESSAGE" value="починил картинки" />
+    <MESSAGE value="сделал лабу3" />
+    <MESSAGE value="починил названия" />
+    <option name="LAST_COMMIT_MESSAGE" value="починил названия" />
   </component>
 </project>

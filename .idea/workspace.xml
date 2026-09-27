@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0e313eb-2d3d-4275-a581-d3f9984fa7c9" name="Changes" comment="сделано задание">
+    <list default="true" id="a0e313eb-2d3d-4275-a581-d3f9984fa7c9" name="Changes" comment="починил картинки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3JVH740Phf60fO119B6ib9sruQ7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,9 +52,10 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "D:/study/web/webui-development_study/lab2",
+    "last_opened_file_path": "D:/study/web/webui-development_study/lab3",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm"
@@ -59,9 +63,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\web\webui-development_study\lab3" />
       <recent name="D:\study\web\webui-development_study\lab2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\web\webui-development_study\lab3" />
       <recent name="D:\study\web\webui-development_study\lab2" />
     </key>
   </component>
@@ -82,6 +88,7 @@
       <workItem from="1789739146090" duration="30000" />
       <workItem from="1789739248709" duration="3105000" />
       <workItem from="1790492716681" duration="753000" />
+      <workItem from="1790493514912" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="сделано задание">
       <option name="closed" value="true" />
@@ -99,7 +106,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789901155280</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="починил картинки">
+      <option name="closed" value="true" />
+      <created>1790493537085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790493537086</updated>
+    </task>
+    <task id="LOCAL-00004" summary="починил картинки">
+      <option name="closed" value="true" />
+      <created>1790493631853</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790493631853</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="сделано задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделано задание" />
+    <MESSAGE value="починил картинки" />
+    <option name="LAST_COMMIT_MESSAGE" value="починил картинки" />
   </component>
 </project>

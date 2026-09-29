@@ -26,8 +26,14 @@ body {
   border-radius: 50%;
 }
 
+.edges {
+  overflow: hidden;
+  padding 0 20px;
+}
+
 #menu {
-  text-align: right;
+  float: right;
+  padding top: 18px;
 }
 
 #menu ul {
@@ -51,7 +57,9 @@ body {
 }
 
 #site-name {
+  float: left;
   margin: 0;
+  padding-top: 12px;
   font-size: 28px;
 }
 
@@ -92,4 +100,21 @@ body {
 
 #footer p {
   margin: 0;
+}
+
+#copyright {
+  float: left
+}
+
+#up {
+  float: right
+}
+
+#up a {
+  color: fff;
+  text-decoration: none;
+}
+
+#up a:hover {
+  text-decoration: underline;
 }

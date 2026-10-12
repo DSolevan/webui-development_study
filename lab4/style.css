@@ -1,0 +1,26 @@
+:root {
+  --bs-primary: #2f5f98;
+  --bs-primary-rgb: 47, 95, 152;
+}
+
+.btn-primary {
+  --bs-btn-bg: #2f5f98;
+  --bs-btn-border-color: #2f5f98;
+  --bs-btn-hover-bg: #264d7b;
+  --bs-btn-hover-border-color: #264d7b;
+  --bs-btn-active-bg: #1f4066;
+  --bs-btn-active-border-color: #1f4066;
+}
+
+#menu .nav-link:hover {
+  text-decoration: underline;
+}
+
+.schedule {
+  --bs-table-striped-bg: #dde7f3;
+}
+
+.schedule thead {
+  --bs-table-bg: var(--bs-primary);
+  --bs-table-color: #fff;
+}

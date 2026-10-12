@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0e313eb-2d3d-4275-a581-d3f9984fa7c9" name="Changes" comment="починил 2 задание">
+    <list default="true" id="a0e313eb-2d3d-4275-a581-d3f9984fa7c9" name="Changes" comment="сделал задание 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,22 +57,36 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "D:/study/web/webui-development_study/lab3",
+    "last_opened_file_path": "D:/study/web/webui-development_study/lab4",
     "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\web\webui-development_study\lab4" />
       <recent name="D:\study\web\webui-development_study\lab3" />
       <recent name="D:\study\web\webui-development_study\lab2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\web\webui-development_study\lab4" />
       <recent name="D:\study\web\webui-development_study\lab3" />
       <recent name="D:\study\web\webui-development_study\lab2" />
     </key>
@@ -94,7 +111,7 @@
       <workItem from="1790493514912" duration="2261000" />
       <workItem from="1790622702908" duration="2817000" />
       <workItem from="1790665538623" duration="688000" />
-      <workItem from="1791743679399" duration="3478000" />
+      <workItem from="1791743679399" duration="7548000" />
     </task>
     <task id="LOCAL-00001" summary="сделано задание">
       <option name="closed" value="true" />
@@ -168,11 +185,60 @@
       <option name="project" value="LOCAL" />
       <updated>1790665844850</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="сделал задание 5">
+      <option name="closed" value="true" />
+      <created>1791747206002</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1791747206002</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="605a02fb-9ffc-48c1-b231-b6c7debd7d3a" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="605a02fb-9ffc-48c1-b231-b6c7debd7d3a">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/study/web/webui-development_study/lab5" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="сделано задание" />
@@ -180,6 +246,7 @@
     <MESSAGE value="сделал лабу3" />
     <MESSAGE value="починил названия" />
     <MESSAGE value="починил 2 задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="починил 2 задание" />
+    <MESSAGE value="сделал задание 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделал задание 5" />
   </component>
 </project>

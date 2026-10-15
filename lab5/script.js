@@ -11,7 +11,7 @@ function onCalculateClick(event) {
 
     event.preventDefault();
 
-    if (QUANTITY_PATTERN.test(quantityInput.value)) {
+    if (QUANTITY_PATTERN.test(quantityText)) {
         price = parseInt(productSelect.value, 10);
         quantity = parseInt(quantityText, 10);
         cost = price * quantity;

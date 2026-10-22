@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Калькулятор стоимости комплектующих</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Калькулятор стоимости комплектующих</h1>
+
+    <form id="calc">
+        <p>
+            <label for="quantity">Количество:</label>
+            <input type="number" id="quantity" min="1" value="1">
+        </p>
+
+        <fieldset>
+            <legend>Товар</legend>
+            <label>
+                <input type="radio" name="type" value="mouse" checked>
+                Компьютерная мышь — 1500 ₽
+            </label>
+            <label>
+                <input type="radio" name="type" value="gpu">
+                Видеокарта — 30000 ₽
+            </label>
+            <label>
+                <input type="radio" name="type" value="pc">
+                Системный блок — 70000 ₽
+            </label>
+        </fieldset>
+
+        <p id="option-block">
+            <label for="option">Объём видеопамяти:</label>
+            <select id="option">
+                <option value="small">8 ГБ (+0 ₽)</option>
+                <option value="medium">12 ГБ (+10000 ₽)</option>
+                <option value="large">16 ГБ (+25000 ₽)</option>
+            </select>
+        </p>
+
+        <p id="property-block">
+            <label>
+                <input type="checkbox" id="property">
+                Установка Windows (+3000 ₽)
+            </label>
+        </p>
+    </form>
+
+    <p>Стоимость: <strong id="result">1500 ₽</strong></p>
+</body>
+</html>

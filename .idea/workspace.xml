@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0e313eb-2d3d-4275-a581-d3f9984fa7c9" name="Changes" comment="did lab7">
+    <list default="true" id="a0e313eb-2d3d-4275-a581-d3f9984fa7c9" name="Changes" comment="check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab7/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab7/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/slick/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/slick/slick.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <workItem from="1791743679399" duration="7548000" />
       <workItem from="1792073756547" duration="4257000" />
       <workItem from="1792683533172" duration="2532000" />
-      <workItem from="1793656352677" duration="783000" />
+      <workItem from="1793656352677" duration="1403000" />
     </task>
     <task id="LOCAL-00001" summary="сделано задание">
       <option name="closed" value="true" />
@@ -223,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792685370893</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="check">
+      <option name="closed" value="true" />
+      <created>1793657423436</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1793657423436</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +285,7 @@
     <MESSAGE value="сделал задание 5" />
     <MESSAGE value="checked" />
     <MESSAGE value="did lab7" />
-    <option name="LAST_COMMIT_MESSAGE" value="did lab7" />
+    <MESSAGE value="check" />
+    <option name="LAST_COMMIT_MESSAGE" value="check" />
   </component>
 </project>

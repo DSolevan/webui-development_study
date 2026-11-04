@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a0e313eb-2d3d-4275-a581-d3f9984fa7c9" name="Changes" comment="check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab7/slick/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/slick/slick.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -116,6 +115,7 @@
       <workItem from="1792073756547" duration="4257000" />
       <workItem from="1792683533172" duration="2532000" />
       <workItem from="1793656352677" duration="1403000" />
+      <workItem from="1793819983495" duration="2832000" />
     </task>
     <task id="LOCAL-00001" summary="сделано задание">
       <option name="closed" value="true" />

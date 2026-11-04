@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Лабораторная работа 8. Форма обратной связи</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="page">
+        <h1>Форма обратной связи</h1>
+        <p>Есть вопрос или предложение? Напишите нам.</p>
+        <button type="button" id="open-button" class="button">Написать нам</button>
+    </main>
+
+    <div id="popup" class="popup" hidden>
+        <form id="feedback-form" class="form">
+            <button type="button" id="close-button" class="close" aria-label="Закрыть">&times;</button>
+            <h2>Обратная связь</h2>
+
+            <label>ФИО
+                <input type="text" name="name" placeholder="Иванов Иван Иванович" required>
+            </label>
+
+            <label>Email
+                <input type="email" name="email" placeholder="ivanov@mail.ru" required>
+            </label>
+
+            <label>Телефон
+                <input type="tel" name="phone" placeholder="+7 999 123-45-67" pattern="\+?[0-9\s\(\)\-]{10,20}" required>
+            </label>
+
+            <label>Организация
+                <input type="text" name="organization" placeholder="Необязательно">
+            </label>
+
+            <label>Сообщение
+                <textarea name="message" rows="3" required></textarea>
+            </label>
+
+            <label class="agree">
+                <input type="checkbox" name="agree" required>
+                Я согласен(на) с политикой обработки персональных данных
+            </label>
+
+            <button type="submit" class="button">Отправить</button>
+            <p id="status" class="status"></p>
+        </form>
+    </div>
+</body>
+</html>
